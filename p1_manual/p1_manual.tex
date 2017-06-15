@@ -3,20 +3,31 @@
 \usepackage{geometry}
 \usepackage{amsmath}
 \usepackage{graphicx}
-\geometry{top=1.0in, bottom=2.0in, left=1.0in, right=1.0in}
-
+\usepackage{indentfirst}
 \usepackage{fancyhdr}
+\geometry{top=1.0in, bottom=1.5in, left=1.0in, right=1.0in}
+\pagestyle{fancy}
 
 \lhead{}
-\rhead{\includegraphics[height=0.8in]{images/head.png}}
+\rhead{\includegraphics[height=0.7in]{images/head.png}}
 \cfoot{}
+
+\setlength{\parindent}{2em}
 
 \begin{document}
 
+\pagestyle{fancy}
+
 \input{sections/cover}
 
-\pagestyle{fancy}
+%Contents
+\linespread{2}
+\tableofcontents
+\newpage
+
 \cfoot{\thepage}
+\setcounter{page}{1}
+\setlength{\baselineskip}{22pt}
 
 \input{sections/intro}
 

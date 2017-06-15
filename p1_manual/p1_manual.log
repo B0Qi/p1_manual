@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.5.24)  15 JUN 2017 11:58
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.5.24)  15 JUN 2017 13:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -139,6 +139,9 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen120
 \Gin@req@width=\dimen121
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip46
 \f@ncyO@elh=\skip47
@@ -153,18 +156,18 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 (./p1_manual.aux)
 \openout1 = `p1_manual.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -175,11 +178,11 @@ LaTeX Font Info:    ... okay on input line 14.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 578.16pt, 144.54pt)
+* v-part:(T,H,B)=(72.26999pt, 614.295pt, 108.405pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=469.75502pt
-* \textheight=578.16pt
+* \textheight=614.295pt
 * \oddsidemargin=0.0pt
 * \evensidemargin=0.0pt
 * \topmargin=-37.0pt
@@ -204,7 +207,7 @@ LaTeX Font Info:    ... okay on input line 14.
 File: images/logo.png Graphic file (type QTm)
  <use  "images/logo.png" > [1
 
-] (./p1_manual.toc)
+]) (./p1_manual.toc)
 \tf@toc=\write3
 \openout3 = `p1_manual.toc'.
 
@@ -213,20 +216,20 @@ File: images/head.png Graphic file (type QTm)
 <use  "images/head.png" >
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 62.16624pt.
+ Make it at least 54.93881pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2]) (./sections/intro.tex)
+[1] (./sections/intro.tex)
 File: images/head.png Graphic file (type QTm)
  <use  "images/head.png" > [1] (./p1_manual.aux) ) 
 Here is how much of TeX's memory you used:
- 2011 strings out of 495579
- 25464 string characters out of 6187322
- 84085 words of memory out of 5000000
- 5286 multiletter control sequences out of 15000+600000
+ 2018 strings out of 495579
+ 25701 string characters out of 6187322
+ 84031 words of memory out of 5000000
+ 5289 multiletter control sequences out of 15000+600000
  7417 words of font info for 27 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 27i,14n,43p,280b,345s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,14n,43p,345b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on p1_manual.pdf (3 pages).
