@@ -3,23 +3,21 @@
 \usepackage{geometry}
 \usepackage{amsmath}
 \usepackage{graphicx}
-\geometry{top=1.0in, bottom=1.0in, left=1.0in, right=1.0in}
+\geometry{top=1.0in, bottom=2.0in, left=1.0in, right=1.0in}
 
 \usepackage{fancyhdr}
 
 \lhead{}
-\rhead{\includegraphics[height=0.8in]{images/rhead.png}}
+\rhead{\includegraphics[height=0.8in]{images/head.png}}
+\cfoot{}
 
 \begin{document}
-
-
-\pagestyle{empty}
 
 \input{sections/cover}
 
 \pagestyle{fancy}
+\cfoot{\thepage}
+
 \input{sections/intro}
-\newpage
-dsafa
 
 \end{document}
